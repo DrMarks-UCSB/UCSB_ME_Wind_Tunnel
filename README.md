@@ -4,7 +4,7 @@ Department of Mechanical Engineering - Low Speed Wind Tunnel
 
 Select specifications:
 
-Open circuit-eiffel
+Open circuit Eiffel style
 
 Test section: 12" x 12" x 24"
 
