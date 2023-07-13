@@ -2,6 +2,8 @@
 UC, Santa Barbara
 Department of Mechanical Engineering - Low Speed Wind Tunnel
 
+Overview: https://youtu.be/_IFybxlUYKQ
+
 Select specifications:
 
 Open circuit Eiffel style
