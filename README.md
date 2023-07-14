@@ -10,4 +10,4 @@ Open circuit Eiffel style
 
 Test section: 12" x 12" x 24"
 
-Velocity range: 10 - 100 fps
+Velocity range: 10 - 160 fps
