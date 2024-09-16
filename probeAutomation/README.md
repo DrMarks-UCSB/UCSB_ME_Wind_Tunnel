@@ -1,13 +1,23 @@
 Project Title: Wind Tunnel Pitot Probe Automation
+
 Background:
+
 •	Currently, the pitot tube on the wind tunnel is placed in a desired location via manual drive systems. 
+
   •	Placement of the probe along the x-axis, i.e., parallel to the air flow direction, is accomplished using a belt driven system.
+  
   •	Placement of the probe along the y-axis, i.e., perpendicular to the air flow direction, is accomplished using a gear driven system.
+  
 •	Potentiometers are used with both systems to provide positional feedback.
+
 Desired Outcome of Project:
+
 •	Replace both manual systems with motorized systems.
+
 •	The user should have the option manually jog the system or run pre-scripted positioning.
+
   • Program control:
+  
     File should be ASCII text sent via serial port
       Format "< $A??.??; $A??.??; ... >" 
         '<' File start delimiter.
@@ -22,6 +32,7 @@ Desired Outcome of Project:
         Multiple lines are ok
         Example <$X0.01;$Y10.0;$D5;$Y10.1;>
           Machine move forward to x = 0.01, then imediately to y = 10.0 cm absolute, pause for 5 seconds, then move one millimeter to 10.1 cm absolute
+          
       MATLAB Code: 
         serialportlist("available") % determine correct comport from printout of port list
         windtunnelPitotProbe = serialport("COMx",BAUD_RATE) % COMx: see above line. BAUD: see below, default 74880
